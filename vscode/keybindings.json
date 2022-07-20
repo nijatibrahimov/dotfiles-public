@@ -1,0 +1,83 @@
+[
+	{
+		"key": "ctrl+shift+;",
+		"command": "workbench.view.extension.sftp"
+	},
+	{
+		"key": "ctrl+b",
+		"command": "workbench.action.toggleActivityBarVisibility"
+	},
+	{
+		"key": "ctrl+;",
+		"command": "workbench.action.toggleSidebarVisibility"
+	},
+	{
+		"key": "ctrl+b",
+		"command": "-workbench.action.toggleSidebarVisibility"
+	},
+	{
+		"key": "ctrl+k",
+		"command": "commandId",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "ctrl+alt+;",
+		"command": "breadcrumbs.focus",
+		"when": "breadcrumbsPossible"
+	},
+	{
+		"key": "ctrl+shift+;",
+		"command": "-breadcrumbs.focus",
+		"when": "breadcrumbsPossible"
+	},
+	{
+		"key": "ctrl+alt+d",
+		"command": "sftp.download.activeFile"
+	},
+	{
+		"key": "ctrl+alt+i",
+		"command": "sftp.remoteExplorer.editInLocal"
+	},
+	{
+		"key": "ctrl+alt+a",
+		"command": "sftp.diff.activeFile"
+	},
+	{
+		"key": "ctrl+alt+u",
+		"command": "sftp.upload.activeFile"
+	},
+	{
+		"key": "ctrl+shift+b",
+		"command": "workbench.action.toggleStatusbarVisibility"
+	},
+	{
+		"key": "ctrl+shift+space",
+		"command": "workbench.action.showCommands"
+	},
+	{
+		"key": "ctrl+shift+p",
+		"command": "-workbench.action.showCommands"
+	},
+	{
+		"key": "f1",
+		"command": "-workbench.action.showCommands"
+	},
+	{
+		"key": "ctrl+space",
+		"command": "workbench.action.quickOpen"
+	},
+	{
+		"key": "ctrl+p",
+		"command": "-workbench.action.quickOpen"
+	},
+	{
+		"key": "ctrl+]",
+		"command": "tab",
+		"when": "editorTextFocus && !editorTabMovesFocus"
+	},
+	{
+		"key": "ctrl+[",
+		"command": "outdent",
+		"when": "editorTextFocus && !editorTabMovesFocus"
+	}
+]
