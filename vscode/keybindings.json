@@ -79,5 +79,22 @@
 		"key": "ctrl+[",
 		"command": "outdent",
 		"when": "editorTextFocus && !editorTabMovesFocus"
+	},
+	{
+		"key": "ctrl+`",
+		"command": "-workbench.action.terminal.toggleTerminal",
+		"when": "terminal.active"
+	},
+	{
+		"key": "alt+t",
+		"command": "workbench.action.terminal.toggleTerminal"
+	},
+	{
+		"key": "ctrl+alt+z",
+		"command": "workbench.action.toggleZenMode"
+	},
+	{
+		"key": "ctrl+k z",
+		"command": "-workbench.action.toggleZenMode"
 	}
 ]
