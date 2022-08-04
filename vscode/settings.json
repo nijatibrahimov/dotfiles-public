@@ -1,4 +1,4 @@
-// 19.07.2022
+// 04.08.2022
 // Nijat Ibrahimov
 {
 	// Fundamentals
@@ -20,37 +20,35 @@
 	},
 	"security.workspace.trust.untrustedFiles": "open",
 	"extensions.ignoreRecommendations": true,
-	"breadcrumbs.enabled": false,
 	// Editor
 	// ####################
 	"editor.formatOnSave": true,
 	"editor.bracketPairColorization.independentColorPoolPerBracketType": true,
 	"editor.snippetSuggestions": "inline",
 	"editor.cursorWidth": 2,
-	"editor.renderWhitespace": "selection",
+	"editor.renderWhitespace": "none",
 	"editor.fastScrollSensitivity": 2,
 	"editor.lineNumbers": "relative",
 	"editor.mouseWheelScrollSensitivity": 0,
-	"editor.cursorSmoothCaretAnimation": true,
+	"editor.cursorSmoothCaretAnimation": false,
 	"editor.hover.enabled": false,
 	"editor.linkedEditing": true,
 	"editor.tabSize": 2,
 	"editor.minimap.renderCharacters": false,
-	"editor.cursorBlinking": "phase",
+	"editor.cursorBlinking": "solid",
 	"editor.cursorStyle": "line",
 	"editor.wordBasedSuggestionsMode": "allDocuments",
-	"editor.insertSpaces": false,
 	"editor.scrollbar.verticalScrollbarSize": 20,
 	"editor.semanticHighlighting.enabled": true,
 	"editor.stickyTabStops": true,
 	"editor.trimAutoWhitespace": false,
 	"editor.detectIndentation": false,
-	"editor.inlayHints.fontFamily": "Hack Nerd Font, Iosevka Expanded, JetBrains Mono, Fira Code, mononoki",
-	"editor.fontFamily": "Iosevka SS12, Hack Nerd Font, JetBrains Mono, Fira Code, mononoki",
+	"editor.inlayHints.fontFamily": "Iosevka SS12, Hack Nerd Font, JetBrains Mono, Fira Code, mononoki",
+	"editor.fontFamily": "Iosevka SS12, Hack Nerd Font, Fira Code, JetBrains Mono, mononoki",
 	"editor.fontSize": 12,
-	"editor.lineHeight": 15,
+	"editor.lineHeight": 1.25,
 	"editor.fontWeight": "400",
-	"editor.letterSpacing": -0.2,
+	// "editor.letterSpacing": -0.15,
 	"editor.fontLigatures": true,
 	"editor.wordWrap": "on",
 	"editor.codeActionsOnSave": {
@@ -61,58 +59,26 @@
 	"editor.minimap.enabled": false,
 	"editor.bracketPairColorization.enabled": false,
 	"editor.folding": false,
+	"editor.insertSpaces": false,
 	// Terminal
 	// ####################
+	"terminal.integrated.fontFamily": "Iosevka SS12, Hack Nerd Font, JetBrains Mono, Iosevka Expanded, Fira Code, mononoki",
 	"terminal.integrated.fontSize": 11,
+	"terminal.integrated.lineHeight": 1,
 	"terminal.integrated.gpuAcceleration": "off",
 	"terminal.integrated.fontWeightBold": "normal",
-	"terminal.integrated.defaultProfile.linux": "bash",
 	"terminal.integrated.defaultProfile.windows": "PowerShell",
 	"terminal.integrated.copyOnSelection": true,
-	"terminal.integrated.fontFamily": "Hack Nerd Font, JetBrains Mono, Iosevka Expanded, Fira Code, mononoki",
-	"terminal.integrated.cursorBlinking": true,
-	"terminal.integrated.cursorStyle": "line",
+	"terminal.integrated.cursorBlinking": false,
+	"terminal.integrated.cursorStyle": "block",
 	"terminal.integrated.drawBoldTextInBrightColors": false,
 	"terminal.integrated.rightClickBehavior": "selectWord",
-	"terminal.integrated.lineHeight": 1,
-	"terminal.integrated.profiles.linux": {
-		"bash": {
-			"path": "bash",
-			"icon": "terminal-bash"
-		},
-		"zsh": {
-			"path": "zsh"
-		},
-		"fish": {
-			"path": "fish"
-		},
-		"tmux": {
-			"path": "tmux",
-			"icon": "terminal-tmux"
-		},
-		"pwsh": {
-			"path": "pwsh",
-			"icon": "terminal-powershell"
-		},
-		"/bin/bash": {
-			"path": "bash"
-		},
-		"rbash": {
-			"path": "/bin/rbash"
-		},
-		"dash": {
-			"path": "/bin/dash"
-		},
-		"sh": {
-			"path": "/bin/sh"
-		}
-	},
-	"window.dialogStyle": "custom",
-	"window.menuBarVisibility": "toggle",
+	"terminal.integrated.defaultProfile.linux": "fish",
 	"window.zoomLevel": 2,
-	"window.closeWhenEmpty": true,
+	"window.menuBarVisibility": "toggle",
 	"window.restoreFullscreen": true,
-	"window.titleSeparator": " / ",
+	"window.titleSeparator": " | ",
+	"window.dialogStyle": "custom",
 	// Vim
 	// ####################
 	"vim.easymotion": true,
@@ -233,6 +199,9 @@
 		"editor.insertSpaces": true,
 		"editor.detectIndentation": false
 	},
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "dbaeumer.vscode-eslint"
+	},
 	"[css]": {
 		"editor.defaultFormatter": "vscode.css-language-features"
 	},
@@ -249,27 +218,28 @@
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
 	"json.schemas": [],
-	"php.validate.executablePath": "../../../../xampp/php/php.exe",
-	"[vue]": {
-		"editor.defaultFormatter": "Vue.volar"
-	},
-	// Workbench
-	// ####################
-	"workbench.editor.showTabs": false,
 	"workbench.editor.tabSizing": "shrink",
 	"workbench.editor.closeOnFileDelete": true,
 	"workbench.startupEditor": "none",
 	"workbench.editor.wrapTabs": true,
-	"workbench.iconTheme": "bearded-icons",
-	"liveServer.settings.donotShowInfoMsg": true,
-	"[typescriptreact]": {
-		"editor.defaultFormatter": "dbaeumer.vscode-eslint"
-	},
 	"editor.formatOnPaste": true,
 	"editor.formatOnType": true,
+	"workbench.editor.showTabs": false,
+	"workbench.editor.tabCloseButton": "off",
+	// ####################
+	// Zen mode
+	"zenMode.centerLayout": false,
+	"zenMode.fullScreen": false,
+	"zenMode.hideLineNumbers": false,
 	// ####################
 	// End
-	"workbench.colorCustomizations": {},
-	"workbench.colorTheme": "codefi",
+	"workbench.colorCustomizations": {
+		"scrollbar.shadow": "#00000000",
+		"editorCursor.foreground": "#C8C093",
+		"editorCursor.background": "#282828",
+		"editor.selectionBackground": "#2A2A37"
+	},
+	"workbench.iconTheme": "bearded-icons",
+	"workbench.colorTheme": "Kanagawa",
 	"workbench.activityBar.visible": false
 }

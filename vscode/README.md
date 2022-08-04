@@ -8,20 +8,40 @@
 - babel javascript
 - bearded-icons
 - codefi
+- checkpoints
+- color highlight
+- css navigation
+- error lens
+- es7+ React/Redux/React-Native snippets
+- eslint
 - file utils
+- git graph
+- git history
+- icons
 - intellicode
-- prettier
-- project manager
+- kanagawa
+- markdown preview enhanced
+- monokai-dark-vibrant
+- npm intellisense
+- path intellisense
+- prettier - code formatter
 - sass
-- sftp
+- sftp (liximomo)
 - vim
+- vscode-styled-components
 
 ##### fonts
 
-- [hack nerd font](https://github.com/ryanoasis/nerd-fonts/releases)
 - [iosevka ss12 extended](https://typeof.net/Iosevka)
+- [hack nerd font](https://github.com/ryanoasis/nerd-fonts/releases)
 
+##### themes
 
-##### theme
-- [codefi](https://github.com/nijatibrahimov/codefi-theme "link to github")
-- [monokai dark vibrant](https://marketplace.visualstudio.com/items?itemName=larscom.monokai-dark-vibrant "link to marketplace")
+- [codefi](https://github.com/nijatibrahimov/codefi-theme 'link to github')
+- [kanagawa](https://marketplace.visualstudio.com/items?itemName=qufiwefefwoyn.kanagawa 'link to marketplace')
+- [monokai dark vibrant](https://marketplace.visualstudio.com/items?itemName=larscom.monokai-dark-vibrant 'link to marketplace')
+
+##### icons
+
+- [icons](https://marketplace.visualstudio.com/items?itemName=tal7aouy.icons 'link to marketplace')
+- [bearded icons](https://marketplace.visualstudio.com/items?itemName=BeardedBear.beardedicons 'link to marketplace')
