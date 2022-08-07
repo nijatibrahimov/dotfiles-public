@@ -17,6 +17,7 @@
 - file utils
 - git graph
 - git history
+- glassit-vsc
 - icons
 - intellicode
 - kanagawa

@@ -1,3 +1,3 @@
 ##### dotfiles
 
-- vscode (settings, keybindings, extensions, fonts, theme).
+- vscode (settings, keybindings, extensions, fonts, themes, icons).

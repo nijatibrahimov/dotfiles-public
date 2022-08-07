@@ -1,10 +1,10 @@
-// 04.08.2022
+// 07.08.2022
 // Nijat Ibrahimov
 {
 	// Fundamentals
 	// ####################
 	"diffEditor.ignoreTrimWhitespace": false,
-	"glassit.alpha": 245,
+	"glassit.alpha": 235,
 	"explorer.confirmDelete": false,
 	"explorer.confirmDragAndDrop": false,
 	"files.autoSaveDelay": 1200,
@@ -20,6 +20,7 @@
 	},
 	"security.workspace.trust.untrustedFiles": "open",
 	"extensions.ignoreRecommendations": true,
+	"breadcrumbs.enabled": false,
 	// Editor
 	// ####################
 	"editor.formatOnSave": true,
@@ -48,9 +49,9 @@
 	"editor.fontSize": 12,
 	"editor.lineHeight": 1.25,
 	"editor.fontWeight": "400",
-	// "editor.letterSpacing": -0.15,
+	"editor.letterSpacing": -0.15,
 	"editor.fontLigatures": true,
-	"editor.wordWrap": "on",
+	"editor.wordWrap": "off",
 	"editor.codeActionsOnSave": {
 		"source.fixAll.eslint": true
 	},
@@ -88,7 +89,6 @@
 	"vim.useCtrlKeys": true,
 	"vim.hlsearch": true,
 	"vim.sneak": true,
-	"vim.easymotionMarkerooundColor": "#020202",
 	"vim.normalModeKeyBindings": [
 		{
 			"before": ["<leader>", "d"],
@@ -205,6 +205,9 @@
 	"[css]": {
 		"editor.defaultFormatter": "vscode.css-language-features"
 	},
+	"[scss]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
 	"javascript.updateImportsOnFileMove.enabled": "never",
 	"typescript.updateImportsOnFileMove.enabled": "always",
 	"[json]": {
@@ -218,14 +221,8 @@
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
 	"json.schemas": [],
-	"workbench.editor.tabSizing": "shrink",
-	"workbench.editor.closeOnFileDelete": true,
-	"workbench.startupEditor": "none",
-	"workbench.editor.wrapTabs": true,
 	"editor.formatOnPaste": true,
 	"editor.formatOnType": true,
-	"workbench.editor.showTabs": false,
-	"workbench.editor.tabCloseButton": "off",
 	// ####################
 	// Zen mode
 	"zenMode.centerLayout": false,
@@ -237,8 +234,14 @@
 		"scrollbar.shadow": "#00000000",
 		"editorCursor.foreground": "#C8C093",
 		"editorCursor.background": "#282828",
-		"editor.selectionBackground": "#2A2A37"
+		"editor.selectionBackground": "#424257"
 	},
+	"workbench.editor.showTabs": false,
+	"workbench.editor.tabSizing": "shrink",
+	"workbench.editor.closeOnFileDelete": true,
+	"workbench.startupEditor": "none",
+	"workbench.editor.wrapTabs": true,
+	"workbench.editor.tabCloseButton": "off",
 	"workbench.iconTheme": "bearded-icons",
 	"workbench.colorTheme": "Kanagawa",
 	"workbench.activityBar.visible": false
