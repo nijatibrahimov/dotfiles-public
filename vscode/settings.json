@@ -1,12 +1,13 @@
-// 07.08.2022
+// 10.08.2022
 // Nijat Ibrahimov
 {
 	// Fundamentals
 	// ####################
-	"diffEditor.ignoreTrimWhitespace": false,
-	"glassit.alpha": 235,
+	"explorer.compactFolders": false,
 	"explorer.confirmDelete": false,
 	"explorer.confirmDragAndDrop": false,
+	"diffEditor.ignoreTrimWhitespace": false,
+	"glassit.alpha": 240,
 	"files.autoSaveDelay": 1200,
 	"files.defaultLanguage": "html",
 	"files.autoSave": "onFocusChange",
@@ -23,10 +24,9 @@
 	"breadcrumbs.enabled": false,
 	// Editor
 	// ####################
-	"editor.formatOnSave": true,
 	"editor.bracketPairColorization.independentColorPoolPerBracketType": true,
-	"editor.snippetSuggestions": "inline",
-	"editor.cursorWidth": 2,
+	"editor.suggestSelection": "first",
+	"editor.snippetSuggestions": "top",
 	"editor.renderWhitespace": "none",
 	"editor.fastScrollSensitivity": 2,
 	"editor.lineNumbers": "relative",
@@ -38,6 +38,7 @@
 	"editor.minimap.renderCharacters": false,
 	"editor.cursorBlinking": "solid",
 	"editor.cursorStyle": "line",
+	"editor.cursorWidth": 1,
 	"editor.wordBasedSuggestionsMode": "allDocuments",
 	"editor.scrollbar.verticalScrollbarSize": 20,
 	"editor.semanticHighlighting.enabled": true,
@@ -61,6 +62,9 @@
 	"editor.bracketPairColorization.enabled": false,
 	"editor.folding": false,
 	"editor.insertSpaces": false,
+	"editor.formatOnPaste": true,
+	"editor.formatOnType": true,
+	"editor.formatOnSave": true,
 	// Terminal
 	// ####################
 	"terminal.integrated.fontFamily": "Iosevka SS12, Hack Nerd Font, JetBrains Mono, Iosevka Expanded, Fira Code, mononoki",
@@ -76,10 +80,74 @@
 	"terminal.integrated.rightClickBehavior": "selectWord",
 	"terminal.integrated.defaultProfile.linux": "fish",
 	"window.zoomLevel": 2,
-	"window.menuBarVisibility": "toggle",
 	"window.restoreFullscreen": true,
 	"window.titleSeparator": " | ",
 	"window.dialogStyle": "custom",
+
+	// Emmet
+	// ####################
+	"emmet.triggerExpansionOnTab": true,
+	"emmet.showExpandedAbbreviation": "never",
+	"emmet.showSuggestionsAsSnippets": false,
+	"emmet.includeLanguages": {
+		"javascript": "javascriptreact",
+		"vue-html": "html",
+		"php": "html"
+	},
+	// Git
+	// ####################
+	"git.autofetch": true,
+	"git.confirmSync": false,
+	// Prettier
+	// ####################
+	"prettier.useTabs": true,
+	"prettier.tabWidth": 2,
+	"prettier.singleQuote": true,
+	"prettier.trailingComma": "all",
+	"prettier.semi": true,
+	"prettier.jsxBracketSameLine": true,
+	"prettier.printWidth": 100,
+	// ESLint and Languages
+	// ####################
+	"eslint.packageManager": "npm",
+	"eslint.format.enable": true,
+	"eslint.alwaysShowStatus": true,
+	"[html]": {
+		"editor.defaultFormatter": "vscode.html-language-features"
+	},
+	"html.completion.attributeDefaultValue": "doublequotes",
+	"[css]": {
+		"editor.defaultFormatter": "vscode.css-language-features"
+	},
+	"[scss]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	// ####################
+	// JavaScript, TypeScript, JSON
+	"[javascript]": {
+		"editor.defaultFormatter": "vscode.typescript-language-features"
+	},
+	"javascript.autoClosingTags": true,
+	"javascript.suggestionActions.enabled": false,
+	"typescript.suggestionActions.enabled": false,
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	"[json]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[jsonc]": {
+		"editor.quickSuggestions": {
+			"strings": true
+		},
+		"editor.suggest.insertMode": "replace",
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"json.schemas": [],
+	// ####################
+	// Zen mode
+	"zenMode.centerLayout": false,
+	"zenMode.fullScreen": false,
+	"zenMode.hideLineNumbers": false,
 	// Vim
 	// ####################
 	"vim.easymotion": true,
@@ -163,71 +231,6 @@
 		"<C-z>": false,
 		"<C-y>": false
 	},
-	// Emmet
-	// ####################
-	"emmet.triggerExpansionOnTab": true,
-	"emmet.showSuggestionsAsSnippets": true,
-	"emmet.includeLanguages": {
-		"javascript": "javascriptreact",
-		"vue-html": "html"
-	},
-	// Git
-	// ####################
-	"git.autofetch": true,
-	"git.confirmSync": false,
-	// Prettier
-	// ####################
-	"prettier.useTabs": true,
-	"prettier.tabWidth": 2,
-	"prettier.singleQuote": true,
-	"prettier.trailingComma": "all",
-	"prettier.semi": true,
-	"prettier.jsxBracketSameLine": true,
-	"prettier.printWidth": 100,
-	// ESLint and Languages
-	// ####################
-	"eslint.packageManager": "npm",
-	"eslint.format.enable": true,
-	"eslint.alwaysShowStatus": true,
-	"[html]": {
-		"editor.defaultFormatter": "vscode.html-language-features"
-	},
-	"html.completion.attributeDefaultValue": "doublequotes",
-	"[javascript]": {
-		"editor.defaultFormatter": "vscode.typescript-language-features",
-		"editor.tabSize": 2,
-		"editor.insertSpaces": true,
-		"editor.detectIndentation": false
-	},
-	"[typescriptreact]": {
-		"editor.defaultFormatter": "dbaeumer.vscode-eslint"
-	},
-	"[css]": {
-		"editor.defaultFormatter": "vscode.css-language-features"
-	},
-	"[scss]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
-	"javascript.updateImportsOnFileMove.enabled": "never",
-	"typescript.updateImportsOnFileMove.enabled": "always",
-	"[json]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
-	"[jsonc]": {
-		"editor.quickSuggestions": {
-			"strings": true
-		},
-		"editor.suggest.insertMode": "replace",
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
-	"json.schemas": [],
-	"editor.formatOnPaste": true,
-	"editor.formatOnType": true,
-	// ####################
-	// Zen mode
-	"zenMode.centerLayout": false,
-	"zenMode.fullScreen": false,
-	"zenMode.hideLineNumbers": false,
 	// ####################
 	// End
 	"workbench.colorCustomizations": {
@@ -242,7 +245,9 @@
 	"workbench.startupEditor": "none",
 	"workbench.editor.wrapTabs": true,
 	"workbench.editor.tabCloseButton": "off",
-	"workbench.iconTheme": "bearded-icons",
+	"workbench.iconTheme": "spectrum-vscode-icons",
+	"window.menuBarVisibility": "compact",
+	"workbench.layoutControl.enabled": false,
 	"workbench.colorTheme": "Kanagawa",
 	"workbench.activityBar.visible": false
 }
