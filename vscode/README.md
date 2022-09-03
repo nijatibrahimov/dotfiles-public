@@ -38,9 +38,9 @@
 
 ##### themes
 
+- [nora](https://github.com/nijatibrahimov/nora-theme 'link to github')
 - [codefi](https://github.com/nijatibrahimov/codefi-theme 'link to github')
 - [kanagawa](https://marketplace.visualstudio.com/items?itemName=qufiwefefwoyn.kanagawa 'link to marketplace')
-- [monokai dark vibrant](https://marketplace.visualstudio.com/items?itemName=larscom.monokai-dark-vibrant 'link to marketplace')
 
 ##### icons
 
