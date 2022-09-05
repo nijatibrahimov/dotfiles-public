@@ -1,4 +1,4 @@
-// 04.09.2022
+// 05.09.2022
 // Nijat Ibrahimov
 {
 	// Fundamentals
@@ -102,6 +102,7 @@
 	},
 	// Git
 	// ####################
+	"git.enableSmartCommit": true,
 	"git.autofetch": true,
 	"git.confirmSync": false,
 	// Prettier
@@ -229,6 +230,9 @@
 		"<C-z>": false,
 		"<C-y>": false
 	},
+	"workbench.colorCustomizations": {
+		// "editor.background": "#222a37"
+	},
 	// ####################
 	// End
 	"workbench.editor.showIcons": true,
@@ -240,8 +244,7 @@
 	"window.menuBarVisibility": "toggle",
 	"workbench.layoutControl.enabled": false,
 	"workbench.productIconTheme": "material-product-icons",
-	"git.enableSmartCommit": true,
-	"workbench.colorTheme": "nora-reverse",
+	"workbench.colorTheme": "nora",
 	"workbench.iconTheme": "spectrum-vscode-icons",
 	"workbench.activityBar.visible": false
 }
