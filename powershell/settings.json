@@ -1,0 +1,32 @@
+{
+	"schemes": [
+		{
+			"background": "#2A2A37",
+			"black": "#333344",
+			"blue": "#4591C4",
+			"brightBlack": "#768296",
+			"brightBlue": "#8DB9E2",
+			"brightCyan": "#1CADAD",
+			"brightGreen": "#98C377",
+			"brightPurple": "#CC7FCC",
+			"brightRed": "#E74856",
+			"brightWhite": "#F2F2F2",
+			"brightYellow": "#E2C08D",
+			"cursorColor": "#CAC294",
+			"cyan": "#0C7D9D",
+			"foreground": "#DFDCB8",
+			"green": "#81B88B",
+			"name": "nora - dark theme",
+			"purple": "#AC4CAC",
+			"red": "#D16D5B",
+			"selectionBackground": "#F2F2F2",
+			"white": "#DFDCB8",
+			"yellow": "#DEA259"
+		}
+	],
+	"showTabsInTitlebar": true,
+	"showTerminalTitleInTitlebar": false,
+	"tabWidthMode": "equal",
+	"theme": "system",
+	"useAcrylicInTabRow": true
+}
