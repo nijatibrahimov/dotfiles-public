@@ -1,4 +1,4 @@
-// 05.09.2022
+// 16.09.2022
 // Nijat Ibrahimov
 {
 	// Fundamentals
@@ -7,26 +7,16 @@
 	"explorer.confirmDelete": false,
 	"explorer.confirmDragAndDrop": false,
 	"diffEditor.ignoreTrimWhitespace": false,
-	"glassit.alpha": 245,
-	"glassit.step": 10,
 	"files.autoSaveDelay": 1200,
 	"files.defaultLanguage": "html",
 	"files.autoSave": "onFocusChange",
-	"files.associations": {
-		"*.tpl": "html",
-		"*.svelte": "html"
-	},
-	"launch": {
-		"configurations": [],
-		"compounds": []
-	},
 	"security.workspace.trust.untrustedFiles": "open",
 	"extensions.ignoreRecommendations": true,
 	"breadcrumbs.enabled": false,
 	// Editor
 	// ####################
-	"editor.scrollbar.horizontalScrollbarSize": 10,
-	"editor.scrollbar.verticalScrollbarSize": 10,
+	"editor.scrollbar.horizontalScrollbarSize": 15,
+	"editor.scrollbar.verticalScrollbarSize": 15,
 	"editor.bracketPairColorization.independentColorPoolPerBracketType": true,
 	"editor.guides.bracketPairs": false,
 	"editor.renderWhitespace": "selection",
@@ -36,7 +26,6 @@
 	"editor.fastScrollSensitivity": 2,
 	"editor.lineNumbers": "relative",
 	"editor.mouseWheelScrollSensitivity": 0.5,
-	"editor.cursorSmoothCaretAnimation": true,
 	"editor.hover.enabled": false,
 	"editor.linkedEditing": true,
 	"editor.tabSize": 2,
@@ -49,12 +38,12 @@
 	"editor.stickyTabStops": true,
 	"editor.trimAutoWhitespace": true,
 	"editor.detectIndentation": false,
-	"editor.inlayHints.fontFamily": "Iosevka SS12, DM Mono, Hack Nerd Font, JetBrains Mono, Fira Code, mononoki",
+	"editor.inlayHints.fontFamily": "Iosevka SS12, Hack Nerd Font, JetBrains Mono, Fira Code, mononoki",
 	"editor.fontFamily": "Iosevka SS12",
-	"editor.fontSize": 11,
+	"editor.fontSize": 12,
 	"editor.lineHeight": 1.25,
 	"editor.fontWeight": "400",
-	"editor.letterSpacing": 0.05,
+	// "editor.letterSpacing": 0.1,
 	"editor.fontLigatures": true,
 	"editor.wordWrap": "off",
 	"editor.codeActionsOnSave": {
@@ -67,9 +56,10 @@
 	"editor.folding": false,
 	"editor.insertSpaces": false,
 	"editor.formatOnPaste": true,
-	"editor.smoothScrolling": true,
-	// "editor.formatOnType": true,
 	"editor.formatOnSave": true,
+	// "editor.smoothScrolling": true,
+	// "editor.cursorSmoothCaretAnimation": true,
+
 	// Terminal
 	// ####################
 	"terminal.integrated.fontFamily": "Iosevka SS12, Hack Nerd Font, JetBrains Mono, Fira Code, mononoki",
@@ -84,11 +74,11 @@
 	"terminal.integrated.drawBoldTextInBrightColors": false,
 	"terminal.integrated.rightClickBehavior": "selectWord",
 	"terminal.integrated.defaultProfile.linux": "fish",
-	"terminal.integrated.smoothScrolling": true,
 	"window.zoomLevel": 2,
 	"window.restoreFullscreen": true,
 	"window.titleSeparator": " ⊸ ",
 	"window.dialogStyle": "custom",
+	// "terminal.integrated.smoothScrolling": true,
 
 	// Emmet
 	// ####################
@@ -100,11 +90,13 @@
 		"vue-html": "html",
 		"php": "html"
 	},
+
 	// Git
 	// ####################
 	"git.enableSmartCommit": true,
 	"git.autofetch": true,
 	"git.confirmSync": false,
+
 	// Prettier
 	// ####################
 	"prettier.useTabs": true,
@@ -114,6 +106,7 @@
 	"prettier.semi": true,
 	"prettier.bracketSameLine": true,
 	"prettier.printWidth": 100,
+
 	// ESLint and Languages
 	// ####################
 	"eslint.packageManager": "npm",
@@ -230,21 +223,32 @@
 		"<C-z>": false,
 		"<C-y>": false
 	},
-	"workbench.colorCustomizations": {
-		// "editor.background": "#222a37"
-	},
+	// Todo highlight
+	// ####################
+	"todohighlight.isEnable": true,
+	"todohighlight.isCaseSensitive": true,
+	"todohighlight.keywords": [
+		{
+			"text": "NOTE:",
+			"color": "#ffffff",
+			"backgroundColor": "#5ea2cf"
+		}
+	],
 	// ####################
 	// End
-	"workbench.editor.showIcons": true,
+	"workbench.colorCustomizations": {},
+	"workbench.tree.indent": 20,
+	"workbench.tree.expandMode": "singleClick",
 	"workbench.editor.tabSizing": "shrink",
+	"workbench.editor.showIcons": true,
 	"workbench.editor.closeOnFileDelete": true,
 	"workbench.startupEditor": "none",
-	"workbench.editor.wrapTabs": true,
 	"workbench.editor.tabCloseButton": "off",
 	"window.menuBarVisibility": "toggle",
 	"workbench.layoutControl.enabled": false,
-	"workbench.productIconTheme": "material-product-icons",
 	"workbench.colorTheme": "nora",
-	"workbench.iconTheme": "spectrum-vscode-icons",
-	"workbench.activityBar.visible": false
+	"workbench.editor.pinnedTabSizing": "compact",
+	"workbench.editor.showTabs": true,
+	"workbench.productIconTheme": "material-product-icons",
+	"workbench.iconTheme": "vs-nomo-dark"
 }
