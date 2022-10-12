@@ -1,254 +1,281 @@
-// 16.09.2022
-// Nijat Ibrahimov
+// 12.10.2022 / nijat ibrahimov.
 {
-	// Fundamentals
-	// ####################
-	"explorer.compactFolders": false,
-	"explorer.confirmDelete": false,
-	"explorer.confirmDragAndDrop": false,
-	"diffEditor.ignoreTrimWhitespace": false,
-	"files.autoSaveDelay": 1200,
-	"files.defaultLanguage": "html",
-	"files.autoSave": "onFocusChange",
-	"security.workspace.trust.untrustedFiles": "open",
-	"extensions.ignoreRecommendations": true,
-	"breadcrumbs.enabled": false,
-	// Editor
-	// ####################
-	"editor.scrollbar.horizontalScrollbarSize": 15,
-	"editor.scrollbar.verticalScrollbarSize": 15,
-	"editor.bracketPairColorization.independentColorPoolPerBracketType": true,
-	"editor.guides.bracketPairs": false,
-	"editor.renderWhitespace": "selection",
-	"editor.renderLineHighlight": "line",
-	"editor.suggestSelection": "first",
-	"editor.snippetSuggestions": "top",
-	"editor.fastScrollSensitivity": 2,
-	"editor.lineNumbers": "relative",
-	"editor.mouseWheelScrollSensitivity": 0.5,
-	"editor.hover.enabled": false,
-	"editor.linkedEditing": true,
-	"editor.tabSize": 2,
-	"editor.minimap.renderCharacters": false,
-	"editor.cursorBlinking": "solid",
-	"editor.cursorStyle": "line",
-	"editor.cursorWidth": 1,
-	"editor.wordBasedSuggestionsMode": "allDocuments",
-	"editor.semanticHighlighting.enabled": true,
-	"editor.stickyTabStops": true,
-	"editor.trimAutoWhitespace": true,
-	"editor.detectIndentation": false,
-	"editor.inlayHints.fontFamily": "Iosevka SS12, Hack Nerd Font, JetBrains Mono, Fira Code, mononoki",
-	"editor.fontFamily": "Iosevka SS12",
-	"editor.fontSize": 12,
-	"editor.lineHeight": 1.25,
-	"editor.fontWeight": "400",
-	// "editor.letterSpacing": 0.1,
-	"editor.fontLigatures": true,
-	"editor.wordWrap": "off",
-	"editor.codeActionsOnSave": {
-		"source.fixAll.eslint": true
-	},
-	"editor.unicodeHighlight.ambiguousCharacters": false,
-	"editor.unicodeHighlight.invisibleCharacters": false,
-	"editor.minimap.enabled": false,
-	"editor.bracketPairColorization.enabled": false,
-	"editor.folding": false,
-	"editor.insertSpaces": false,
-	"editor.formatOnPaste": true,
-	"editor.formatOnSave": true,
-	// "editor.smoothScrolling": true,
-	// "editor.cursorSmoothCaretAnimation": true,
+  // ####################
+  // another:
+  "explorer.compactFolders": false,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "files.autoSaveDelay": 1200,
+  "files.defaultLanguage": "html",
+  "files.autoSave": "onFocusChange",
+  "security.workspace.trust.untrustedFiles": "open",
+  "extensions.ignoreRecommendations": true,
+  "breadcrumbs.enabled": false,
 
-	// Terminal
-	// ####################
-	"terminal.integrated.fontFamily": "Iosevka SS12, Hack Nerd Font, JetBrains Mono, Fira Code, mononoki",
-	"terminal.integrated.fontSize": 11,
-	"terminal.integrated.lineHeight": 1,
-	"terminal.integrated.gpuAcceleration": "off",
-	"terminal.integrated.fontWeightBold": "normal",
-	"terminal.integrated.defaultProfile.windows": "PowerShell",
-	"terminal.integrated.copyOnSelection": true,
-	"terminal.integrated.cursorBlinking": false,
-	"terminal.integrated.cursorStyle": "block",
-	"terminal.integrated.drawBoldTextInBrightColors": false,
-	"terminal.integrated.rightClickBehavior": "selectWord",
-	"terminal.integrated.defaultProfile.linux": "fish",
-	"window.zoomLevel": 2,
-	"window.restoreFullscreen": true,
-	"window.titleSeparator": " ⊸ ",
-	"window.dialogStyle": "custom",
-	// "terminal.integrated.smoothScrolling": true,
+  // ####################
+  // editor:
+  "editor.quickSuggestionsDelay": 0,
+  "editor.scrollbar.horizontalScrollbarSize": 15,
+  "editor.scrollbar.verticalScrollbarSize": 15,
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "editor.guides.bracketPairs": false,
+  "editor.renderWhitespace": "selection",
+  "editor.renderLineHighlight": "line",
+  "editor.suggestSelection": "first",
+  "editor.snippetSuggestions": "top",
+  "editor.fastScrollSensitivity": 2,
+  "editor.lineNumbers": "relative",
+  "editor.mouseWheelScrollSensitivity": 0.5,
+  "editor.hover.enabled": false,
+  "editor.linkedEditing": true,
+  "editor.tabSize": 2,
+  "editor.minimap.renderCharacters": false,
+  "editor.cursorBlinking": "phase",
+  "editor.cursorStyle": "line",
+  "editor.cursorWidth": 1,
+  "editor.wordBasedSuggestionsMode": "allDocuments",
+  "editor.semanticHighlighting.enabled": true,
+  "editor.stickyTabStops": true,
+  "editor.trimAutoWhitespace": true,
+  "editor.detectIndentation": false,
+  "editor.inlayHints.fontFamily": "Iosevka SS12, Iosevka, Iosevka Extended, Hack Nerd Font, JetBrains Mono, Fira Code, mononoki",
+  "editor.fontFamily": "Iosevka SS12",
+  "editor.fontSize": 12,
+  "editor.fontLigatures": true,
+  "editor.wordWrap": "off",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  "editor.minimap.enabled": false,
+  "editor.bracketPairColorization.enabled": false,
+  "editor.folding": false,
+  "editor.insertSpaces": false,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.lineHeight": 1.25,
+  "editor.smoothScrolling": true,
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.fontWeight": "400",
+  // "editor.letterSpacing": 0.2,
 
-	// Emmet
-	// ####################
-	"emmet.triggerExpansionOnTab": true,
-	"emmet.showExpandedAbbreviation": "never",
-	"emmet.showSuggestionsAsSnippets": false,
-	"emmet.includeLanguages": {
-		"javascript": "javascriptreact",
-		"vue-html": "html",
-		"php": "html"
-	},
+  // ####################
+  // terminal:
+  "terminal.integrated.fontFamily": "Iosevka SS12, Iosevka, Iosevka Extended, Hack Nerd Font, JetBrains Mono, Fira Code, mononoki",
+  "terminal.integrated.fontSize": 12,
+  "terminal.integrated.lineHeight": 1,
+  "terminal.integrated.gpuAcceleration": "off",
+  "terminal.integrated.fontWeightBold": "normal",
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "terminal.integrated.copyOnSelection": true,
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.cursorStyle": "block",
+  "terminal.integrated.drawBoldTextInBrightColors": false,
+  "terminal.integrated.rightClickBehavior": "selectWord",
+  "terminal.integrated.defaultProfile.linux": "fish",
+  "window.zoomLevel": 1.5,
+  "window.restoreFullscreen": true,
+  "terminal.integrated.smoothScrolling": true,
 
-	// Git
-	// ####################
-	"git.enableSmartCommit": true,
-	"git.autofetch": true,
-	"git.confirmSync": false,
+  // ####################
+  // emmet:
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.showExpandedAbbreviation": "never",
+  "emmet.showSuggestionsAsSnippets": false,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "vue-html": "html",
+    "php": "html"
+  },
 
-	// Prettier
-	// ####################
-	"prettier.useTabs": true,
-	"prettier.tabWidth": 2,
-	"prettier.singleQuote": true,
-	"prettier.trailingComma": "all",
-	"prettier.semi": true,
-	"prettier.bracketSameLine": true,
-	"prettier.printWidth": 100,
+  // ####################
+  // git:
+  "git.enableSmartCommit": true,
+  "git.autofetch": true,
+  "git.confirmSync": false,
 
-	// ESLint and Languages
-	// ####################
-	"eslint.packageManager": "npm",
-	"eslint.format.enable": true,
-	"eslint.alwaysShowStatus": true,
-	"[html]": {
-		"editor.defaultFormatter": "vscode.html-language-features"
-	},
-	"html.completion.attributeDefaultValue": "doublequotes",
-	"[css]": {
-		"editor.defaultFormatter": "vscode.css-language-features"
-	},
-	"[scss]": {
-		"editor.defaultFormatter": "vscode.css-language-features"
-	},
-	// ####################
-	// JavaScript, TypeScript, JSON
-	"[javascript]": {
-		"editor.defaultFormatter": "vscode.typescript-language-features"
-	},
-	"javascript.autoClosingTags": true,
-	"javascript.suggestionActions.enabled": false,
-	"typescript.suggestionActions.enabled": false,
-	"javascript.updateImportsOnFileMove.enabled": "always",
-	"typescript.updateImportsOnFileMove.enabled": "always",
-	"[typescript]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
-	"[json]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
-	"[jsonc]": {
-		"editor.quickSuggestions": {
-			"strings": true
-		},
-		"editor.suggest.insertMode": "replace",
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
-	"json.schemas": [],
-	// ####################
-	// Zen mode
-	"zenMode.centerLayout": false,
-	"zenMode.fullScreen": false,
-	"zenMode.hideLineNumbers": false,
-	"zenMode.hideStatusBar": false,
-	// Vim
-	// ####################
-	"vim.easymotion": true,
-	"vim.autoindent": true,
-	"vim.incsearch": true,
-	"vim.useSystemClipboard": true,
-	"vim.useCtrlKeys": true,
-	"vim.hlsearch": true,
-	"vim.sneak": true,
-	"vim.normalModeKeyBindings": [
-		{
-			"before": ["<tab>"],
-			"commands": ["workbench.action.nextEditor"]
-		},
-		{
-			"before": ["<S-tab>"],
-			"commands": ["workbench.action.previousEditor"]
-		}
-	],
-	"vim.insertModeKeyBindings": [
-		{
-			"before": ["j", "k"],
-			"after": ["<Esc>"]
-		},
-		{
-			"before": ["<C-j>"],
-			"after": ["<Esc>"]
-		}
-	],
-	"vim.visualModeKeyBindings": [
-		{
-			"before": ["<leader>", "h"],
-			"after": ["_"]
-		},
-		{
-			"before": ["<leader>", "l"],
-			"after": ["$"]
-		}
-	],
-	"vim.normalModeKeyBindingsNonRecursive": [
-		{
-			"before": ["<leader>", "w"],
-			"commands": ["workbench.action.splitEditor"]
-		},
-		{
-			"before": ["<leader>", "e"],
-			"commands": ["workbench.action.toggleSidebarVisibility"]
-		},
-		{
-			"before": ["<leader>", "f"],
-			"commands": ["revealInExplorer"]
-		},
-		{
-			"before": ["<leader>", "h"],
-			"after": ["_"]
-		},
-		{
-			"before": ["<leader>", "l"],
-			"after": ["$"]
-		}
-	],
-	"vim.leader": "<space>",
-	"vim.handleKeys": {
-		"<C-a>": false,
-		"<C-f>": false,
-		"<C-c>": false,
-		"<C-x>": false,
-		"<C-v>": false,
-		"<C-z>": false,
-		"<C-y>": false
-	},
-	// Todo highlight
-	// ####################
-	"todohighlight.isEnable": true,
-	"todohighlight.isCaseSensitive": true,
-	"todohighlight.keywords": [
-		{
-			"text": "NOTE:",
-			"color": "#ffffff",
-			"backgroundColor": "#5ea2cf"
-		}
-	],
-	// ####################
-	// End
-	"workbench.colorCustomizations": {},
-	"workbench.tree.indent": 20,
-	"workbench.tree.expandMode": "singleClick",
-	"workbench.editor.tabSizing": "shrink",
-	"workbench.editor.showIcons": true,
-	"workbench.editor.closeOnFileDelete": true,
-	"workbench.startupEditor": "none",
-	"workbench.editor.tabCloseButton": "off",
-	"window.menuBarVisibility": "toggle",
-	"workbench.layoutControl.enabled": false,
-	"workbench.colorTheme": "nora",
-	"workbench.editor.pinnedTabSizing": "compact",
-	"workbench.editor.showTabs": true,
-	"workbench.productIconTheme": "material-product-icons",
-	"workbench.iconTheme": "vs-nomo-dark"
+  // ####################
+  // prettier:
+  "prettier.useTabs": true,
+  "prettier.tabWidth": 2,
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "all",
+  "prettier.semi": true,
+  "prettier.bracketSameLine": true,
+  "prettier.printWidth": 100,
+
+  // ####################
+  // eslint and languages:
+  "eslint.packageManager": "npm",
+  "eslint.format.enable": true,
+  "eslint.alwaysShowStatus": true,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "html.completion.attributeDefaultValue": "doublequotes",
+  "[css]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+
+  // ####################
+  // javascript, typescript, json:
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "javascript.autoClosingTags": true,
+  "javascript.suggestionActions.enabled": false,
+  "typescript.suggestionActions.enabled": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.quickSuggestions": {
+      "strings": true
+    },
+    "editor.suggest.insertMode": "replace",
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "json.schemas": [],
+
+  // ####################
+  // zen mode:
+  "zenMode.centerLayout": false,
+  "zenMode.fullScreen": false,
+  "zenMode.hideLineNumbers": false,
+  "zenMode.hideStatusBar": false,
+
+  // ####################
+  // vim:
+  "vim.easymotion": true,
+  "vim.autoindent": true,
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": true,
+  "vim.hlsearch": true,
+  "vim.sneak": true,
+  "vim.normalModeKeyBindings": [
+    {
+      "before": ["<tab>"],
+      "commands": ["workbench.action.nextEditor"]
+    },
+    {
+      "before": ["<S-tab>"],
+      "commands": ["workbench.action.previousEditor"]
+    }
+  ],
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "k"],
+      "after": ["<Esc>"]
+    },
+    {
+      "before": ["<C-j>"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.visualModeKeyBindings": [
+    {
+      "before": ["<leader>", "h"],
+      "after": ["_"]
+    },
+    {
+      "before": ["<leader>", "l"],
+      "after": ["$"]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<leader>", "w"],
+      "commands": ["workbench.action.splitEditor"]
+    },
+    {
+      "before": ["<leader>", "e"],
+      "commands": ["workbench.action.toggleSidebarVisibility"]
+    },
+    {
+      "before": ["<leader>", "f"],
+      "commands": ["revealInExplorer"]
+    },
+    {
+      "before": ["<leader>", "h"],
+      "after": ["_"]
+    },
+    {
+      "before": ["<leader>", "l"],
+      "after": ["$"]
+    }
+  ],
+  "vim.leader": "<space>",
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-f>": false,
+    "<C-c>": false,
+    "<C-x>": false,
+    "<C-v>": false,
+    "<C-z>": false,
+    "<C-y>": false
+  },
+
+  // ####################
+  // todo highlight
+  "todohighlight.isEnable": true,
+  "todohighlight.isCaseSensitive": true,
+  "todohighlight.keywords": [
+    {
+      "text": "NOTE:",
+      "color": "#f2f2f2",
+      "backgroundColor": "#5e82bb"
+    }
+  ],
+  "window.commandCenter": false,
+  "window.titleBarStyle": "custom",
+  "workbench.editor.showTabs": true,
+  "workbench.colorCustomizations": {},
+  "editor.semanticTokenColorCustomizations": {
+    "enabled": true
+  },
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": [
+          "keyword",
+          "storage.type.js",
+          "storage.type.ts",
+          "constant.language.boolean",
+          "variable.language.this",
+          "entity.other.attribute-name"
+        ],
+        "settings": {
+          "fontStyle": "italic"
+        }
+      }
+    ]
+  },
+  "workbench.tree.indent": 12,
+  "workbench.tree.expandMode": "singleClick",
+  "workbench.editor.tabSizing": "shrink",
+  "workbench.editor.showIcons": true,
+  "workbench.editor.closeOnFileDelete": true,
+  "workbench.startupEditor": "none",
+  "workbench.editor.tabCloseButton": "off",
+  "workbench.layoutControl.enabled": false,
+  "workbench.editor.pinnedTabSizing": "compact",
+  "workbench.iconTheme": "icons",
+  "workbench.colorTheme": "nora",
+  "window.menuBarVisibility": "toggle",
+  "workbench.productIconTheme": "material-product-icons",
+  "turboConsoleLog.logMessagePrefix": "🐈‍⬛",
+  "turboConsoleLog.delimiterInsideMessage": ">>",
+  "turboConsoleLog.addSemicolonInTheEnd": true,
+  "workbench.activityBar.visible": false
 }
