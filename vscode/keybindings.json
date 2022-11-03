@@ -1,4 +1,29 @@
 [
+  // -------
+  // e/;
+  // -------
+  {
+    "key": "ctrl+e",
+    "command": "workbench.files.action.focusFilesExplorer"
+  }, // - open and focus editor file explorer
+  {
+    "key": "ctrl+;",
+    "command": "workbench.action.toggleSidebarVisibility"
+  }, // - toggle editor explorer
+  // -------
+  // h/j/k/l
+  // -------
+  {
+    "key": "ctrl+h",
+    "command": "editor.action.showHover"
+  }, // - show hover
+  {
+    "key": "ctrl+j",
+    "command": "editor.action.marker.nextInFiles"
+  }, // - go to next error/warn
+  // -----------------
+  // other keybindings
+  // -----------------
   {
     "key": "ctrl+shift+;",
     "command": "workbench.view.extension.sftp"
@@ -6,10 +31,6 @@
   {
     "key": "ctrl+b",
     "command": "workbench.action.toggleActivityBarVisibility"
-  },
-  {
-    "key": "ctrl+;",
-    "command": "workbench.action.toggleSidebarVisibility"
   },
   {
     "key": "ctrl+b",
