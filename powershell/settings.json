@@ -27,6 +27,6 @@
 	"showTabsInTitlebar": true,
 	"showTerminalTitleInTitlebar": false,
 	"tabWidthMode": "equal",
-	"theme": "system",
+	"theme": "dark",
 	"useAcrylicInTabRow": true
 }
